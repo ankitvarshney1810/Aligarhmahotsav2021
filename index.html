@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3a67bb">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Aligarh Numaish, Aligarh exibition, exibition, Aligarh Mahotsav 2020">
+    <link href="https://fonts.googleapis.com/css?family=PT Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <link rel="icon" href="images/icon.png" type="image">
+    <title>Aligarh Mahotsav 2021</title>
+</head>
+<body>
+    <section class="home-banner">
+        <div class="banner-box">
+            <img src="images/Logo.png">
+            <div class="heading">ALigarh Mahotsav 2021</div>
+            <div class="description">Something information about aligarh mahotsav.</div>
+            <div class="button text-center top-margin-20">
+                <button class="btn btn-apply">All Events</button>
+            </div>
+        </div>
+    </section>
+    <header>
+        <a href="../" class="site-name"><img class="dark" src="images/Logo.png"></a>
+        <nav>
+            <a href="main" class="link hm active">Home<span class="line"></span></a>
+            <a href="main/about" class="link ab">About<span class="line"></span></a>
+            <a href="main/rides" class="link rd">Rides<span class="line"></span></a>
+            <a href="main/shop" class="link sp">Shop<span class="line"></span></a>
+            <a href="main/gallery" class="link gl">Gallery<span class="line"></span></a>
+            <a href="main/events" class="link ev">Events<span class="line"></span></a>
+            <a href="main/facility" class="link fc">Facilities<span class="line"></span></a>
+            <a href="main/officermessage" class="link om">Officer Message<span class="line"></span></a>
+        </nav>
+        <div class="btnm">
+            <div class="btnmenu">
+                <span class="bars"></span>
+                <span class="bars"></span>
+                <span class="bars"></span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="slide_wrapper">
+        	<div class="owl-carousel">
+        		<img src="images/slider1.webp">
+                <img src="images/slider16.webp">
+                <img src="images/slider15.webp">
+                <img src="images/slider14.webp">
+                <img src="images/slider17.webp">
+                <img src="images/slider13.webp">
+                <img src="images/slider12.webp">
+                <img src="images/slider10.webp">
+                <img src="images/slider11.webp">
+                <img src="images/slider9.webp">
+                <img src="images/slider3.webp">
+        		<img src="images/slider7.webp">
+        		<img src="images/slider8.webp">
+        		<img src="images/slider2.webp">
+        		<img src="images/slider4.webp">
+        	</div>
+        	<script>
+                var owl = $('.owl-carousel');
+                owl.owlCarousel({
+                    animateOut: 'fadeOut',
+                    items:1,
+                    loop:true,
+                    margin:0,
+                    autoplay:true,
+                    autoplayTimeout:4000,
+                    autoplayHoverPause:false
+                });
+                $('.play').on('click',function(){
+                    owl.trigger('play.owl.autoplay',[1000])
+                })
+                $('.stop').on('click',function(){
+                    owl.trigger('stop.owl.autoplay')
+                })
+            </script>
+        </div>  
+    </main>
+
+    <section class="today-program">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Today's Programmes</h2>
+                    <h3>1st February, 2021</h3>
+                </div>
+            </div>
+            <div class="row top-margin-40">
+                <div class="col">
+                    <div class="slide_wrapper">
+                        <div class="owl-carousel text-center">
+                            <div class="card">
+                                <img src="images/gallery/45.webp" alt="">
+                                <div class="desc">
+                                    <div class="description text-center">
+                                        <div class="head">Title of Event</div>
+                                        <div class="place">Place/time of event</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/gallery/44.webp" alt="">
+                                <div class="desc">
+                                    <div class="description text-center">
+                                        <div class="head">Title of Event</div>
+                                        <div class="place">Place/time of event</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/gallery/42.webp" alt="">
+                                <div class="desc">
+                                    <div class="description text-center">
+                                        <div class="head">Title of Event</div>
+                                        <div class="place">Place/time of event</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/gallery/39.webp" alt="">
+                                <div class="desc">
+                                    <div class="description text-center">
+                                        <div class="head">Title of Event</div>
+                                        <div class="place">Place/time of event</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <script>
+                            var owl = $('.owl-carousel');
+                            owl.owlCarousel({
+                                animateOut: 'fadeOut',
+                                responsiveClass:true,
+                                responsive:{
+                                    0:{
+                                        items:1
+                                    },
+                                    600:{
+                                        items:2
+                                    },
+                                    1000:{
+                                        items:3
+                                    }
+                                },
+                                loop:true,
+                                margin:0,
+                                autoplay:true,
+                                autoplayTimeout:4000,
+                                autoplayHoverPause:false
+                            });
+                            $('.play').on('click',function(){
+                                owl.trigger('play.owl.autoplay',[1000])
+                            })
+                            $('.stop').on('click',function(){
+                                owl.trigger('stop.owl.autoplay')
+                            })
+                        </script>
+                    </div>  
+                </div>
+            </div>
+            <div class="row top-margin-40 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <button class="btn btn-apply w-100">PAST EVENTS</button>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <button class="btn btn-light w-100">All EVENTS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="top-attraction">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Top Attraction</h1>
+                </div>
+            </div>
+            <div class="row top-margin-40">
+                <div class="col-12 col-md-6 col-lg-4 top-margin-20">
+                    <div class="card">
+                        <img src="images/places/barha.webp" alt="">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Title</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 top-margin-20">
+                    <div class="card">
+                        <img src="images/places/gate.webp" alt="">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Title</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 top-margin-20">
+                    <div class="card">
+                        <img src="images/places/krashi.webp" alt="">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Title</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 top-margin-20">
+                    <div class="card">
+                        <img src="images/places/krishna.webp" alt="">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Title</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 top-margin-20">
+                    <div class="card">
+                        <img src="images/places/laal.webp" alt="">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Title</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 top-margin-20">
+                    <div class="card">
+                        <img src="images/places/park.webp" alt="">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Title</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row top-margin-40 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <button class="btn btn-apply w-100">All Attraction</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="our-advertiser">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Our Advertisers</h2>
+                </div>
+            </div>
+            <div class="row top-margin-40">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Top Advertisers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Top Advertisers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Top Advertisers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Top Advertisers</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row top-margin-40 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3 col-xl-2">
+                    <button class="btn btn-apply w-100">All Advertisers</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-mahotsav">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>About Aligarh Mahotsav</h1>
+                    <p>Two three lines about aligarh mahotsav. Two three lines about aligarh mahotsav. Two three lines about aligarh mahotsav. Two three lines about aligarh mahotsav. Two three lines about aligarh mahotsav. Two three lines about aligarh mahotsav.Two three lines about aligarh mahotsav.</p>
+                </div>
+            </div>
+            <div class="row top-margin-40">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Adhikarigan</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Committee & Meeting</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Facilities</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 top-margin-20">
+                    <div class="card">
+                        <div class="desc">
+                            <div class="description text-center">
+                                <div class="head">Messages</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Testimonials</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center top-margin-10">
+                <div class="col top-margin-20">
+                    <div class="card">
+                        <img src="images/officer/dm.jpeg" alt="">
+                        <div class="message-box">
+                            <div class="officername">Sh. CHANDRA BHUSHAN SINGH (IAS)</div>
+                            <div class="officerdesignation">DM ALIGARH</div>
+                            <p>अलीगढ़ प्रदर्शनी अपने सांस्‍कृतिक परिवेश के लिए पूर्व से ही सुविख्‍यात है। मुझे विश्‍वास है कि प्रदर्शनी परिसर में स्‍थापित कोहिनूर मंच, कृष्‍णांजलि नाट्यशाला एवं मुक्‍तांकाश मंच के माध्‍यम से जहां....</p>
+                            <a href="main/officermessage">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row top-margin-40 justify-content-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <button class="btn btn-apply w-100">All Testimonials</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center top-margin-40 align-self-center">
+                    <img src="images/Logo.png"><br>
+                    <span class="mail">info@aligarhmahotsav.co.in</span>
+                </div>
+                <div class="col-md-2 text-center text-md-left top-margin-40 align-self-center">
+                    <a href="">Privacy Policy</a>
+                    <a href="">Tearms and Condition</a>
+                    <a href="">Feedbacks</a>
+                    <a href="">Contact Us</a>
+                    <a href="">About Us</a>
+                </div>
+                <div class="col-md-4 top-margin-40 text-center align-self-center">
+                    <form action="Main/subscribe" method="post" enctype="multipart/form-data">
+                        <input type="email" name="email" id="" class="input" placeholder="Enter your email id">
+                        <input type="submit" class="butn" value="Subscribe Now">
+                    </form>
+                </div>
+                <div class="col-md-3 top-margin-40 text-center text-md-right align-self-center">
+                    <div class="developer">
+                        <span>Designed & Developed by</span>
+                        <img src="images/tps-footer.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    All Copyright Reserved @ 2021
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback-button">
+        <i class="fas fa-pencil-alt"></i>
+    </div>
+    <div class="feedback-modal">
+        <div class="close" id="close"><img src="images/close-light.svg" alt=""></div>
+        <div class="feedbox-box">
+            <div class="heading text-center">Feedback</div>
+            <form action="main/feedback" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="number" id="number" placeholder="Email Address/Contact Number">
+                </div>
+                <div class="form-group">
+                    <textarea name="comment" class="form-control" rows="2" cols="30" placeholder="Comment Here"></textarea>
+                </div>
+                
+                </textarea>
+                <div class="form-group">
+                    <input type="submit" class="btn btn-apply" id="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        $(".feedback-button").click(function(){
+            $(".feedback-modal").css('display','grid');
+            $("body").css('overflow','hidden');
+        });
+        $("#close").click(function(){
+            $(".feedback-modal").css('display','none');
+            $("body").css('overflow','unset');
+        });
+        $("#banner-button").click(function(){
+            $("#banner").css('display','none');
+        });
+    </script>
+
+
+
+
+
+
+
+    <script>
+        jQuery(document).ready(function ($) {
+            // Get current path and find target link
+            var path = window.location.pathname.split("/").pop();
+
+            // Account for home page with empty path
+            if (path == '') {
+                path = '../';
+            }
+
+
+            var target = $('nav a[href="' + path + '"]');
+            
+            target.addClass('active');
+            $(".btnm").click(function () {
+                $("nav").slideToggle();
+                $("body").toggleClass('overflow-hide');
+            });
+            window.onload = function () {
+                if (window.innerWidth < 998) {
+                    //$("nav").click(function () {
+                    //    $("nav").slideToggle();
+                    //});;
+                    $(".dropdown").click(function (){
+                        $("dropdown").slideToggle();
+                    })
+                }
+            }
+        });
+    
+    </script>
+    <script>
+        $(document).ready(function(){       
+            var scroll_pos = 0;
+            $(document).scroll(function() { 
+                scroll_pos = $(this).scrollTop();
+                if(scroll_pos > 80) {
+                    $("header").addClass('solid-back');
+                } 
+                else{
+                    $("header").removeClass('solid-back');
+                }
+            });
+        });
+    </script>
+    
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
